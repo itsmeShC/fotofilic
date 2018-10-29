@@ -1,0 +1,81 @@
+.random{
+    position: relative;
+    top: 30px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    color: #515457; /*all text color*/
+    margin-bottom: 10px;
+}
+
+.head{
+    font-family: 'Kite One', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+.explore-con{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.explore-con > .item1{
+    position: relative;
+    flex: 1 1 250px;
+    margin: 5px;
+}
+
+.explore-con > .item2{
+    flex: 1 1 350px;
+    margin: 5px;
+}
+
+.explore-con > div > img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.explore-con > .item1 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.explore-con > .item1 .overlay .layer{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(0,0,0, 0.2);
+    color: #fff;
+}
+
+.layer-usernme{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Kite One', sans-serif;
+}
+
+.layer-font{
+    font-size: 12px;
+}
+
+.explore-con > .item1:hover .overlay{
+    opacity: 1;
+}
