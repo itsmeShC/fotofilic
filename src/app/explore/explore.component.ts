@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { fetchFotosService } from '../services/fetchFotos.service'
+
 
 @Component({
   selector: 'app-explore',
@@ -6,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./explore.component.scss']
 })
 export class ExploreComponent implements OnInit {
-
-  constructor() { }
+//
+ constructor(private fetchFotosService: fetchFotosService) { 
+    this.fetchFotosService.getFotos().subscribe(data =>{ console.log(data)});
+  }
 
   ngOnInit() {
   }
