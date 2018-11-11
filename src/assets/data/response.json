@@ -1,36 +1,36 @@
 [
 
 {
-	'name' : 'Nature Photo',
-	'category':'Nature',
-	'uploadBy':'rahul',
-	'likes':10,
-	'download':12
-	'url': 'https://cdn.pixabay.com/photo/2018/10/03/21/13/shock-headed-boletus-3722395_960_720.jpg'
+	"name" : "Nature Photo",
+	"category":"Nature",
+	"uploadBy":"rahul",
+	"likes":10,
+	"download":55,
+	"url": "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150)"
 },
 {
-	'name' : 'Nature Photo',
-	'category':'Nature',
-	'uploadBy':'rahul',
-	'likes':10,
-	'download':12
-	'url': 'https://cdn.pixabay.com/photo/2018/10/03/21/13/shock-headed-boletus-3722395_960_720.jpg'
+	"name" : "Nature Photo",
+	"category":"Nature",
+	"uploadBy":"amit",
+	"likes":10,
+	"download":77,
+	"url": "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152)"
 },
 {
-	'name' : 'Nature Photo',
-	'category':'Nature',
-	'uploadBy':'rahul',
-	'likes':10,
-	'download':12
-	'url': 'https://cdn.pixabay.com/photo/2018/10/03/21/13/shock-headed-boletus-3722395_960_720.jpg'
+	"name" : "Nature Photo",
+	"category":"Nature",
+	"uploadBy":"itsmeshc",
+	"likes":10,
+	"download":555,
+	"url": "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42)"
 },
 {
-	'name' : 'Nature Photo',
-	'category':'Nature',
-	'uploadBy':'rahul',
-	'likes':10,
-	'download':12
-	'url': 'https://cdn.pixabay.com/photo/2018/10/03/21/13/shock-headed-boletus-3722395_960_720.jpg'
+	"name" : "Nature Photo",
+	"category":"Nature",
+	"uploadBy":"ashish",
+	"likes":10,
+	"download":19,
+	"url": "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40)"
 }
 
 

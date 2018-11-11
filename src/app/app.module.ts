@@ -4,8 +4,10 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HttpModule } from '@angular/http';
 import { Routes , RouterModule} from '@angular/router';
 
+import { NguCarouselModule } from '@ngu/carousel';
+
 import { AppComponent } from './app.component';
-import { SliderComponent } from './slider/slider.component';
+import { SampleComponent } from './slider/slider.component';
 import { NavComponent } from './nav/nav.component';
 import { WrapComponent } from './wrap/wrap.component';
 import { TopComponent } from './top/top.component';
@@ -13,6 +15,9 @@ import { ExploreComponent } from './explore/explore.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutBodyComponent } from './about/about-body/about-body.component';
 import { HomeComponent } from './home/home.component';
+import { AboutTeamComponent } from './about/about-body/about-team/about-team.component';
+
+
 
 const appRoutes: Routes = [
     { path: 'about', component: AboutBodyComponent },
@@ -22,20 +27,22 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    SliderComponent,
+    SampleComponent,
     NavComponent,
     WrapComponent,
     TopComponent,
     ExploreComponent,
     FooterComponent,
     AboutBodyComponent,
-    HomeComponent
+    HomeComponent,
+    AboutTeamComponent,
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModule.forRoot(),
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    NguCarouselModule
   ],
   schemas: [ NO_ERRORS_SCHEMA ],
   bootstrap: [AppComponent]
